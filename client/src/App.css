@@ -1,0 +1,87 @@
+input {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.inputErr {
+  display: block;
+  color: red;
+}
+
+.noErr {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+}
+
+.wrapperDocumentList {
+  width: 100%;
+}
+
+.document-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(156, 209, 82);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.document-all--info {
+  display: none;
+}
+
+.visible {
+  display: block;
+  margin-bottom: 15px;
+
+}
+
+.wrapper-document-info {
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin-right: 100px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+}
+
+
+.inputWrapperCreateDocument {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.createinputWrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hidenLable {
+  visibility: hidden;
+}
+
+.page {
+  width: 40px;
+  height: 40px;
+}
+
+.active {
+  background-color: greenyellow;
+}
